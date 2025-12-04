@@ -1,0 +1,80 @@
+/* Contenedor principal */
+.home-container {
+min-height: 100%; 
+width: 100%; 
+display: flex; 
+justify-content: center; 
+align-items: center; 
+padding: 2rem;
+}
+
+
+
+/* Sección de bienvenida */
+.welcome-section {
+  max-width: 800px;
+  text-align: center;
+  background-color: #f5f7fa;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+/* Título principal */
+.welcome-section h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+}
+
+/* Párrafos */
+.welcome-section p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Misión destacada */
+.mission {
+  font-style: italic;
+  color: #0077cc;
+  font-weight: 500;
+}
+
+/* Botón de llamada a la acción */
+.cta-button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #005fa3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .welcome-section h1 {
+    font-size: 2rem;
+  }
+
+  .welcome-section p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+
